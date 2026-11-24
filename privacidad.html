@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de privacidad | RhythmHiveBot</title>
+<meta name="description" content="Qué guarda RhythmHiveBot, qué solo lee y cómo borrar tus datos.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<header>
+  <a class="brand" href="./">RhythmHiveBot</a>
+  <h1>Política de privacidad</h1>
+  <p class="meta">Última actualización: 24 de noviembre de 2026</p>
+  <p class="lang">English: <a href="privacy.html">Privacy Policy</a></p>
+</header>
+
+<p>RhythmHiveBot es un bot independiente de Discord que muestra el perfil y las cartas de Rhythm Hive de los jugadores que deciden vincular su cuenta del juego. No está afiliado a HYBE, Superb, los creadores de Rhythm Hive ni Discord, ni cuenta con su respaldo.</p>
+
+<p>Aquí se explica qué guarda el bot, qué solo lee para responderte y cómo borrar tus datos.</p>
+
+<h2>Qué guarda el bot</h2>
+<ul>
+  <li><strong>Tu vinculación.</strong> Cuando terminas <code>/vincular</code>, el bot guarda tu ID de usuario de Discord y el ID interno de la cuenta de Rhythm Hive que demostraste que es tuya. Se conserva hasta que la desvincules.</li>
+  <li><strong>Una vinculación en curso.</strong> Mientras vinculas, el bot guarda tu ID de Discord, el apodo que escribiste y un código de un solo uso. Se borra al terminar o cancelar, y en cualquier caso a los 30 minutos de crear el código.</li>
+  <li><strong>Tu idioma.</strong> Si usas <code>/idioma</code>, el bot guarda tu ID de Discord y el idioma que elegiste. Elegir <em>Automático</em> lo borra.</li>
+</ul>
+<p>Eso es todo lo que el bot conserva sobre las personas.</p>
+
+<h2>Qué lee el bot sin guardarlo</h2>
+<ul>
+  <li><strong>De Discord:</strong> tu ID de usuario, tu nombre visible y el idioma de tu aplicación de Discord, y el servidor y el canal donde usas un comando. El bot los usa solo para responder a ese comando. No puede leer los mensajes que escribes.</li>
+  <li><strong>De Rhythm Hive:</strong> el perfil público de las cuentas vinculadas (apodo, nivel, mensaje de perfil, cartas, puntajes, puesto en el ranking y fecha de última conexión), y los resultados de buscar el apodo que escribes en <code>/vincular</code>. Estos datos quedan solo en la memoria del bot: unos 5 minutos, para no volver a preguntarle al juego con cada clic, o mientras el mensaje que los muestra siga teniendo sus botones (hasta unos 15 minutos). Nunca se guardan en disco.</li>
+  <li><strong>Imágenes:</strong> el bot dibuja las imágenes de perfil y de cartas que publica y guarda las recientes en memoria para enviarlas más rápido. El arte de las cartas y los emblemas que descarga del juego se guardan en disco; son imágenes del juego, no datos personales.</li>
+</ul>
+
+<h2>Qué es público</h2>
+<p><code>/perfil</code> y <code>/coleccion</code> publican imágenes en el canal donde se usan. Cualquiera que vea ese canal puede verlas, y quedan en Discord hasta que alguien borre el mensaje. En un servidor donde estén tú y el bot, cualquier miembro puede mostrar el perfil y las cartas de tu cuenta vinculada. Las cuentas que no están vinculadas no se pueden mostrar.</p>
+
+<h2>Quién más trata datos</h2>
+<p>El bot no vende ni comparte tus datos, no muestra anuncios y no te rastrea.</p>
+<ul>
+  <li><strong>Rhythm Hive</strong> recibe el apodo que escribes en <code>/vincular</code> (para encontrar la cuenta) y los IDs de las cuentas vinculadas cuyos perfiles se muestran. El bot nunca te pide la contraseña del juego ni entra en tu cuenta.</li>
+  <li><strong>Discord</strong> entrega los comandos y guarda los mensajes que publica el bot, según la <a href="https://discord.com/privacy">política de privacidad de Discord</a>.</li>
+  <li><strong>Railway</strong> aloja el bot (servidores en Singapur). Sus registros técnicos de errores pueden incluir IDs de Discord o del juego y se conservan por un tiempo limitado.</li>
+</ul>
+
+<h2>Lo que puedes hacer</h2>
+<ul>
+  <li>Desvincular tu cuenta cuando quieras con <code>/vincular</code> y la opción <em>quitar</em>. La vinculación se borra al momento.</li>
+  <li>Borrar tu elección de idioma con <code>/idioma</code> y <em>Automático</em>.</li>
+  <li>Para preguntar por tus datos o pedir que se borre cualquier otra cosa, escribe al desarrollador (ver <a href="#contacto">Contacto</a>).</li>
+</ul>
+
+<h2>Edad</h2>
+<p>Discord exige tener al menos 13 años, o la edad mínima de tu país. El bot no recoge de nadie nada más de lo que describe esta página.</p>
+
+<h2>Cambios</h2>
+<p>Si esta política cambia, esta página mostrará la nueva versión y su fecha.</p>
+
+<h2 id="contacto">Contacto</h2>
+<p>Preguntas y solicitudes: <a href="https://github.com/oscirissss/rhythmhivebot-legal/issues">abre un issue en GitHub (no hace falta compartir datos privados)</a>.</p>
+
+<footer>RhythmHiveBot es un proyecto no oficial. Rhythm Hive y su contenido pertenecen a sus dueños.</footer>
+</main>
+</body>
+</html>
